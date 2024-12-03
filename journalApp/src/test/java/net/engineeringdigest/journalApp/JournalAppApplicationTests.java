@@ -7,7 +7,8 @@ import org.springframework.Getmapping;
 class JournalAppApplicationTests {
 
 	@Getmapping("abc");
-	void contextLoads() {
+	String contextLoads() {
+		return "hello";
 	}
 
 }
